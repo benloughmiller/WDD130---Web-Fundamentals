@@ -70,8 +70,11 @@ footer a {
 footer a:hover {
     color: #D95D39;
 }
-.icon {
+.logo, .icon {
     width: 80px;
+}
+#hero-img {
+    width: 100%;
 }
 footer p {
     font-size: 1.2em;
