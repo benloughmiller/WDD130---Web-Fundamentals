@@ -78,6 +78,8 @@ footer a:hover {
 }
 footer p {
     font-size: 1.2em;
-    text-decoration: underline;
     color:bisque;
 }  
+footer p a:hover {
+    text-decoration: underline;
+}
