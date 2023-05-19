@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,8 @@ nav a {
     text-align: center;
     color: #3A445D;
     text-decoration: none;
+    font-family: Roboto;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -18,54 +22,76 @@ main section {
 }
 #background {
     height: 725px;
-    background-color:bisque; 
+    background-color:rgb(180, 180, 180); 
 }
 body {
-    background-color: white; 
+    background-color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
-    background-color: #F18805; 
+    background-color: #F18805;
+    font-family: Roboto;
 }
 nav a:hover {
     background-color: #D95D39; 
     color: #3A445D;
 }
 .book, .join {
-    background-color: bisque;
+    background-color: rgb(180, 180, 180);
     color: #D95D39; 
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #3A445D;
     color: #F18805; 
 }
 .msg {
-    background-color: #3A445D; 
+    background-color: #3A445D;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #3A445D;
-    color:bisque; 
+    color:rgb(180, 180, 180); 
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 nav a:hover {
-    color: bisque;
+    color: rgb(180, 180, 180);
 }
 .home-title {
     color: #3A445D;
+    font-family: Roboto;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #D95D39;
 }
+h2 {
+    margin: 0;
+}
 .msg h2 {
     color: #3A445D;
+    font-family: Roboto;
 }
 .msg p {
     color: #D95D39;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     text-decoration: none;
     font-size: 1.2em;
-    color:bisque;
+    color:rgb(180, 180, 180);
 }
 footer a:hover {
     color: #D95D39;
@@ -73,13 +99,31 @@ footer a:hover {
 .logo, .icon {
     width: 80px;
 }
+.icon {
+    padding-top: 10px;
+}
 #hero-img {
     width: 100%;
 }
 footer p {
     font-size: 1.2em;
-    color:bisque;
+    color:rgb(180, 180, 180);
 }  
 footer p a:hover {
     text-decoration: underline;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid rgb(180, 180, 180);
+}
+main section img {
+    box-sizing: border-box;
 }
