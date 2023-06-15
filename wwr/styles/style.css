@@ -114,6 +114,9 @@ footer a:hover {
 #hero-img {
     width: 100%;
 }
+#hero-img2 {
+    width: 100%;
+}
 footer p {
     font-size: 1.2em;
     color:rgb(180, 180, 180);
@@ -129,7 +132,7 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
-.rivers-card, .camping-card, .rapids-card {
+.rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
 .card-img {
@@ -187,6 +190,16 @@ grid-row: 2/3;
     opacity: .6;
     transform: scale(1.1);
 }
+
+.image-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 0.5fr 1fr;
+    gap: 20px 25px;
+    position: relative;
+}
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
