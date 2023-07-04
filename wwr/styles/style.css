@@ -8,7 +8,7 @@ nav a {
     text-align: center;
     color: #3A445D;
     text-decoration: none;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
@@ -42,7 +42,7 @@ body {
 }
 header {
     background-color: #F18805;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -79,13 +79,12 @@ footer {
     max-width: 100%
 }
 nav a:hover {
-    color: rgb(180, 180, 180);
     background-color: #D95D39; 
     color: #3A445D;
 }
 .home-title {
     color: white;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -97,7 +96,7 @@ h2 {
 }
 .msg h2 {
     color: #D95D39;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 }
 .msg p {
     color: #D95D39;
