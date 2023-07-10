@@ -119,9 +119,8 @@ h1 {
 }
 h2 {
     font-family: Roboto, sans-serif;
+    color: black;
 }
-
-
 .accordion {
     background-color: #FCDE9C;
     color: #33658A;
@@ -135,13 +134,9 @@ h2 {
     font-family: Roboto, sans-serif;
     font-size: 40px;
 }
-
-
 .active, .accordion:hover {
     background-color: #EA701F;
 }
-
-
 .panel {
     padding: 0 18px;
     background-color: #8CBCB9;
@@ -161,11 +156,25 @@ h2 {
     content: "\2796";
 }
 
-
-
-
-
-
+#tiles {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    background-color: #FCDE9C;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+#grow-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    margin-right: 25px;
+    grid-gap: 50px;
+}
+#grow2 {
+    width: 100%;
+}
 
 footer {
     background-color: #33658A;
